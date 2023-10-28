@@ -1,0 +1,16 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+}
+
+.messageButton {
+  @apply w-40 h-40 bg-slate-800 m-2 rounded-2xl p-5 flex justify-center items-center enabled:hover:bg-slate-700 transition-all 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
