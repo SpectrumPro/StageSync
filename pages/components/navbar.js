@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Navbar() {
+export default function Navbar(current_page) {
 
     var items = [
-        { text: "Back Stage & Viewers", link: "", imageLink: "#" },
-        { text: "Lighting Controll", link: "", imageLink: "#" },
+        { text: "Back Stage & Viewers", link: "/backstage", imageLink: "#" },
+        { text: "Lighting Controll", link: "/lighting", imageLink: "#" },
         { text: "Live Stream", link: "", imageLink: "#" },
         { text: "Camera Operators", link: "", imageLink: "#" },
         { text: "Audio Mixing", link: "", imageLink: "#" },
@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Link href={"/"}>
 
                         {/* <img src="https://flowbite.s3.amazonaws.com/logo.svg" class="mr-3 h-8" alt="Flowbite Logo" /> */}
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Stage Sync</span>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Stage Sync | {current_page}</span>
                     </Link>
 
                 </div>

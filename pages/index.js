@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 const Index = () => {
   return (
     <div class="">
-      <Navbar></Navbar>
+      {Navbar("Dashboard")}
 
       <Aside></Aside>
 

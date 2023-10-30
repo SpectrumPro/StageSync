@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+  env: {
+    QLCPLUS_WEB_ADDRESS: process.env.QLCPLUS_WEB_ADDRESS,
+  },
+};
