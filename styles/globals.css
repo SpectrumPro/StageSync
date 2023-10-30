@@ -12,10 +12,10 @@ body {
 }
 
 .light {
-  @apply appearance-none w-14 h-14 border-8 rounded-full border-slate-800 hover:w-16 hover:h-16 hover:border-slate-700 transition-all 
+  @apply appearance-none sm:w-14 sm:h-14 w-10 h-10 border-8 rounded-full border-slate-800 hover:w-16 hover:h-16 hover:border-slate-700 transition-all 
 }
 .lightSelected {
-  @apply hover:w-20 hover:h-20 w-20 h-20 border-slate-700 transition-none;
+  @apply hover:w-10 hover:h-20 w-20 h-20 sm:hover:w-20 sm:hover:h-20 sm:w-20 sm:h-20 border-slate-700 transition-none;
   /* transition-duration: 10ms */
 
 }
