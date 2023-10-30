@@ -8,9 +8,43 @@ body {
 }
 
 .messageButton {
-  @apply w-40 h-40 bg-slate-800 m-2 rounded-2xl p-5 flex justify-center items-center enabled:hover:bg-slate-700 transition-all 
+  @apply w-36 h-36 bg-slate-800 m-2 rounded-2xl p-5 flex justify-center items-center enabled:hover:bg-slate-700 transition-all duration-200;
 }
+
+.light {
+  @apply appearance-none w-14 h-14 border-8 rounded-full border-slate-800 hover:w-16 hover:h-16 hover:border-slate-700 transition-all 
+}
+.lightSelected {
+  @apply hover:w-20 hover:h-20 w-20 h-20 border-slate-700 transition-none;
+  /* transition-duration: 10ms */
+
+}
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+.col-start-2 {
+  grid-column-start: 2;
+}
+.col-start-3 {
+  grid-column-start: 3;
+}
+.col-start-4 {
+  grid-column-start: 4;
+}
+.col-start-5 {
+  grid-column-start: 5;
+}
+.row-start-1 {
+  grid-row-start: 1;
+}
+.row-start-2 {
+  grid-row-start: 2;
+}

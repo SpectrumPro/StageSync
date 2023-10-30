@@ -16,7 +16,7 @@ export default async (_req, res) => {
       path: "/api/socketio",
     });
     // append SocketIO server to Next.js socket server response
-    res.socket.server.io = io;
+    
   }
   res.end();
 };
