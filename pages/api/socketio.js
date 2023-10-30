@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { Server as ServerIO } from "socket.io";
 
 export const config = {
@@ -6,8 +7,7 @@ export const config = {
   },
 };
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default async (_req, res) => {
+export default async (req, res) => {
   if (!res.socket.server.io) {
     console.log("New Socket.io server...");
     // adapt Next's net Server to http Server
@@ -16,7 +16,7 @@ export default async (_req, res) => {
       path: "/api/socketio",
     });
     // append SocketIO server to Next.js socket server response
-    
+    res.socket.server.io = io;
   }
   res.end();
 };

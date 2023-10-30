@@ -20,7 +20,6 @@ function hexToRgb(hex) {
   } : null;
 }
 
-
 const VcChanels = {
   0:[46, 47, 48],
   1:[50, 51, 52],
@@ -46,9 +45,8 @@ export default (req, res) => {
       ws?.send(VcChanels[e.id][1] + "|"+rbg.g);
       ws?.send(VcChanels[e.id][2] + "|"+rbg.b);
     }
-    console.log()
     // console.log(message);
-    // res?.socket?.server?.io?.emit("message", message);
+    // res.socket.server.io.emit("lightData", m);
 
     // return message
     res.status(201).json(m);
