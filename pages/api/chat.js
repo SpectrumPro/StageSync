@@ -5,7 +5,6 @@ export default (req, res) => {
     const message = req.body;
 
     // dispatch to channel "message"
-    console.log(message)
     res?.socket?.server?.io?.emit("message", message);
 
     // return message

@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Aside from "./components/aside";
 import Navbar from "./components/navbar";
 import { HexColorPicker } from "react-colorful";
+
+import SocketIOClient from "socket.io-client";
+
 
 const Index = () => {
 
@@ -45,6 +48,28 @@ const Index = () => {
             body: JSON.stringify(lights),
         });
     }
+
+    // useEffect(() => {
+    //     const socket = SocketIOClient.connect(process.env.BASE_URL, {
+    //         path: "/api/socketio",
+    //     });
+
+    //     socket.on("connect", () => {
+    //         console.log("SOCKET CONNECTED!", socket.id);
+    //     });
+
+    //     socket.on("lightData", (message) => {
+    //         console.log("Receved Data From Server");
+    //         console.log(message)
+    //         setLights(lights.map(light => {
+    //             console.log(message[light.id].color)
+    //             return {...lights, color:message[light.id].color};
+    //         }))
+    //         console.log(lights)
+    //     });
+
+    //     if (socket) return () => socket.disconnect();
+    // }, []);
 
     return (
         <div class="h-screen bg-black">
