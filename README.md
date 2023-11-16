@@ -14,3 +14,5 @@
 
 # What is this?
 Stage Sync is a program aimed at simplifying the execution of live shows and productions. It facilitates the seamless interconnection of everything from audio and lighting, to live streaming, enabling users to effortlessly access and control all elements from a centralized dashboard.
+
+## StageSync is still in EXTREMELY early development, along with all Spectrum products. And thus is nowhere near even functional yet.
