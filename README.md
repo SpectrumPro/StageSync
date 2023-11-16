@@ -4,7 +4,7 @@
     <img src="https://serv.hnz.li/spectrum/logo/default.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Stage Sync</h3>
+  <h1 align="center">Stage Sync</h1>
   <br>
 
 </p>
