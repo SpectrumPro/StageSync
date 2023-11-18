@@ -15,4 +15,15 @@
 # What is this?
 Stage Sync is a program aimed at simplifying the execution of live shows and productions. It facilitates the seamless interconnection of everything from audio and lighting, to live streaming, enabling users to effortlessly access and control all elements from a centralized dashboard.
 
-## StageSync is still in EXTREMELY early development, along with all Spectrum products. And thus is nowhere near even functional yet.
+### Note: StageSync is in VERY early development.
+Please be aware that StageSync is still in its early stages of development. While it already boasts powerful features, expect regular updates and improvements as we work towards a stable and feature-rich release. Your feedback and contributions are invaluable in shaping the future of StageSync.
+
+### License
+
+Distributed under the MPL License. See [LICENSE](https://github.com/SpectrumPro/StageSync/blob/master/LICENSE) for more information.
+
+### Contributors
+
+[<img src="https://github.com/not-my-username.png" width="60px;"/>](https://github.com/not-my-username) - Lead Development 
+
+StageSync, it's Assets, Images, and Code is Copyrighted © [Liam Sherwin](https://liamsherwin.tech) (Unless otherwise specified)
