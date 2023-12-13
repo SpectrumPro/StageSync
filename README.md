@@ -1,3 +1,7 @@
+# Project Deprecation Notice
+
+This project is now deprecated as all its features can be achieved through the Spectrum Remote Server.
+
 <br/>
 <p align="center">
   <a href="https://github.com/SpectrumPro/StageSync/">
